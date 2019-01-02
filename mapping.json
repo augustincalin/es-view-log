@@ -1,0 +1,98 @@
+{
+    "mapping": {
+        "doc": {
+            "properties": {
+                "application": {
+                    "type": "keyword"
+                },
+                "applicationuid": {
+                    "type": "keyword"
+                },
+                "createdby": {
+                    "type": "keyword"
+                },
+                "createddate": {
+                    "type": "date"
+                },
+                "createdlocal": {
+                    "type": "date"
+                },
+                "customerinformation": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "databasename": {
+                    "type": "keyword"
+                },
+                "description": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "hostname": {
+                    "type": "keyword"
+                },
+                "id": {
+                    "type": "long"
+                },
+                "linenumber": {
+                    "type": "long"
+                },
+                "sessionuid": {
+                    "type": "keyword"
+                },
+                "severity": {
+                    "type": "long"
+                },
+                "source": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "sourcedetails": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "sourceseverity": {
+                    "type": "long"
+                },
+                "stacktrace": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "technicaluser": {
+                    "type": "keyword"
+                },
+                "type": {
+                    "type": "keyword"
+                },
+                "useruid": {
+                    "type": "keyword"
+                }
+            }
+        }
+    }
+}

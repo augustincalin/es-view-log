@@ -1,0 +1,17 @@
+[
+    {
+        "id": 152916,
+        "createdby": "ABSNET-DE\\ak.hasanuzzaman",
+        "createddate": "2018-07-12T08:11:32.5043794",
+        "createdlocal": "2018-07-12T10:11:32.5043794+02:00",
+        "application": "MasterDataService",
+        "applicationuid": "5D4BD757-0D85-478E-A379-07A4C5A40232",
+        "hostname": "LOMOOFNB49",
+        "databasename": "D4G_CK",
+        "sessionuid": "00000000-0000-0000-0000-000000000000",
+        "description": "User profile is available. Using '\"C:\\Users\\ak.hasanuzzaman\\AppData\\Local\\ASP.NET\\DataProtection-Keys\"' as key repository and Windows DPAPI to encrypt keys at rest.",
+        "severity": 2,
+        "useruid": "00000000-0000-0000-0000-000000000000",
+        "technicaluser": "ABSNET-DE\\ak.hasanuzzaman"
+    }
+]
